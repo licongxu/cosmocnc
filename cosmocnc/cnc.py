@@ -234,6 +234,7 @@ class cluster_number_counts:
 
 
             self.ln_M,self.hmf_matrix = self.halo_mass_function.eval_hmf(self.redshift_vec,log=True,volume_element=volume_element)
+            # print("HMF matrix at cnc.py is", self.hmf_matrix)
 
 
             self.logger.debug('Collecting hmf done')
